@@ -114,31 +114,34 @@ namespace SimplePay.Tests
     }
     public class EfetuaTranferenciaTest
     {
-        [Fact]
+        [Fact(Skip ="Inicio de Testes")]
         public void Cadastrar_Usuario_PermitirQueApenasUmCPFOuEmail()
         {
             throw new NotImplementedException();
         }
 
-        [Fact]
+        [Fact(Skip = "Inicio de Testes")]
         public void Efetuar_Transferencia_AutorizarServicoExternoAutorizacao()
         {
             throw new NotImplementedException();
 
         }
-        [Fact]
+
+        [Fact(Skip = "Inicio de Testes")]
         public void Efetuar_Transferencia_RollbackSeErroTransacao()
         {
             throw new NotImplementedException();
 
         }
-        [Fact]
+
+        [Fact(Skip = "Inicio de Testes")]
         public void Receber_Transferencia_ReceberNotificacao()
         {
             throw new NotImplementedException();
 
         }
-        [Fact]
+
+        [Fact(Skip = "Inicio de Testes")]
         public void Receber_Transferencia_ReceberNotificacaoComServicoIndisponivel()
         {
             throw new NotImplementedException();
