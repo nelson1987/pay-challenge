@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0C28870F-79C6-4755-980D-CC5350C13400}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplePay.Tests", "tests\SimplePay.Tests\SimplePay.Tests.csproj", "{9FA89F38-BDEC-423D-81FC-DC5A32763663}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FA89F38-BDEC-423D-81FC-DC5A32763663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FA89F38-BDEC-423D-81FC-DC5A32763663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FA89F38-BDEC-423D-81FC-DC5A32763663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FA89F38-BDEC-423D-81FC-DC5A32763663}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9FA89F38-BDEC-423D-81FC-DC5A32763663} = {0C28870F-79C6-4755-980D-CC5350C13400}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86703790-C4C8-488A-B33B-3797BFEF1DDD}
+	EndGlobalSection
+EndGlobal
